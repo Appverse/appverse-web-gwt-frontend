@@ -32,7 +32,7 @@ import org.fusesource.restygwt.client.TextCallback;
  * Callback to support String return type instead of json objects.
  * 
  */
-public class ApplicationJsonTextAsyncCallback extends AppverseCallback<String> implements TextCallback {
+public class ApplicationJsonTextAsyncCallback extends AppverseCallback<String> {
     private Method method;
     @Override
     public void onFailure(Method method, Throwable throwable) {
