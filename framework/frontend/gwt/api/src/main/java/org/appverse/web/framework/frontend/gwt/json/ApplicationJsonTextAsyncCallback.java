@@ -25,14 +25,13 @@ package org.appverse.web.framework.frontend.gwt.json;
 
 import org.appverse.web.framework.frontend.gwt.callback.AppverseCallback;
 import org.fusesource.restygwt.client.Method;
-import org.fusesource.restygwt.client.MethodCallback;
 import org.fusesource.restygwt.client.TextCallback;
 
 /**
  * Callback to support String return type instead of json objects.
  * 
  */
-public class ApplicationJsonTextAsyncCallback extends AppverseCallback<String> {
+public class ApplicationJsonTextAsyncCallback extends AppverseCallback<String> implements TextCallback{
     private Method method;
     @Override
     public void onFailure(Method method, Throwable throwable) {
