@@ -10,7 +10,7 @@
 
 	<groupId>org.appverse.web.framework.poms.modules.frontend.gwt</groupId>
 	<artifactId>appverse-web-modules-frontend-gwt-pom</artifactId>
-	<version>1.5.1-SNAPSHOT</version>
+	<version>1.5.2-RELEASE</version>
 	<packaging>pom</packaging>
 
 	<name>Appverse Web Framework Modules GWT Frontend POM</name>
@@ -169,7 +169,7 @@
 	<scm>
 		<connection>scm:git:https://${appverseweb.user.name}:${appverseweb.user.password}@github.com/Appverse/appverse-web-gwt-frontend.git</connection>
 		<developerConnection>scm:git:https://${appverseweb.user.name}:${appverseweb.user.password}@github.com/Appverse/appverse-web-gwt-frontend.git</developerConnection>
-		<tag>master</tag>
+		<tag>1.5.2-RELEASE</tag>
 		<url>https://github.com/Appverse/appverse-web</url>
 	</scm>
 
